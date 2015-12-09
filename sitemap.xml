@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset
+      xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
+            http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+
+
+<url>
+  <loc>http://www.seattletreasure.com/</loc>
+  <changefreq>weekly</changefreq>
+</url>
+<url>
+  <loc>http://www.seattletreasure.com/default.aspx</loc>
+  <changefreq>weekly</changefreq>
+</url>
+<url>
+  <loc>http://www.seattletreasure.com/OnGoing.aspx</loc>
+  <changefreq>daily</changefreq>
+</url>
+<url>
+  <loc>http://www.seattletreasure.com/CompletedSearches.aspx</loc>
+  <changefreq>weekly</changefreq>
+</url>
+<url>
+  <loc>http://www.seattletreasure.com/Partnership.aspx</loc>
+  <changefreq>weekly</changefreq>
+</url>
+<url>
+  <loc>http://www.seattletreasure.com/faq.aspx</loc>
+  <changefreq>weekly</changefreq>
+</url>
+<url>
+  <loc>http://www.seattletreasure.com/st/press.aspx</loc>
+  <changefreq>weekly</changefreq>
+</url>
+<url>
+  <loc>http://www.seattletreasure.com/contact.aspx</loc>
+  <changefreq>weekly</changefreq>
+</url>
+
+</urlset>

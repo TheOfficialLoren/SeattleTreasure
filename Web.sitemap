@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<siteMap xmlns="http://schemas.microsoft.com/AspNet/SiteMap-File-1.0" >
+  <siteMapNode url="" title="" description="">
+        <siteMapNode url="default.aspx" title="Home"  description="Homepage for SeattleTreasure.com" />
+        <siteMapNode url="~/OnGoing.aspx" title="Current Searches"  description="The current searches page of SeattleTreasure.com" />
+        <siteMapNode url="~/CompletedSearches.aspx" title="Past Searches"  description="You can view past searches of SeattleTreasure.com" />
+        <siteMapNode url="~/Partnership.aspx" title="Partnerships"  description="View this page if you're interested in making a business parternship with SeattleTreasure.com" />
+        <siteMapNode url="~/faq.aspx" title="FAQ"  description="This page answers common questions for SeattleTreasure.com" />
+        <siteMapNode url="~/press.aspx" title="Press"  description="This page highlights SeattleTreasure.com's success in the media" />
+        <siteMapNode url="~/contact.aspx" title="Contact"  description="You use page to contact SeattleTreasure.com" />
+    </siteMapNode>
+</siteMap>

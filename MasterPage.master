@@ -1,0 +1,163 @@
+﻿<%@ Master Language="VB" CodeFile="MasterPage.master.vb" Inherits="MasterPage" %>
+<%@ Register Assembly="AjaxControlToolkit" Namespace="AjaxControlToolkit" TagPrefix="asp" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title></title>
+    <link href="css.css" rel="stylesheet" type="text/css" />
+    <link rel="Icon" href="images/icon02.gif" /> 
+    <meta name="description" content="Treasure Hunt in Seattle for free cash and prizes!" />
+    <meta name="keywords" content="Treasure Hunt, Seattle, Cash, Treasure, Free" />
+    
+<script type="text/javascript">
+var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+</script>
+<script type="text/javascript">
+try {
+var pageTracker = _gat._getTracker("UA-399548-10");
+pageTracker._trackPageview();
+} catch(err) {}</script>
+
+    
+    
+    <asp:ContentPlaceHolder id="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+
+
+
+
+
+<body>
+    
+    <form id="form1" runat="server">
+    <asp:ScriptManager ID="ScriptManager1" runat="server">
+    </asp:ScriptManager>
+    <div id="container">
+    <div id="banner"><div id="xmas"></div>
+        </div>
+    
+    <div class="menu">
+        <asp:Menu ID="Menu1" runat="server"  
+            Orientation="Horizontal" DataSourceID="SiteMapDataSource1" 
+            MaximumDynamicDisplayLevels="0" SkipLinkText="" StaticSubMenuIndent="0px">
+        </asp:Menu>
+    
+        <asp:SiteMapDataSource ID="SiteMapDataSource1" runat="server" 
+            ShowStartingNode="False" />
+    </div>
+    
+    
+    
+    <div id="content">    
+        <asp:ContentPlaceHolder id="ContentPlaceHolder1" runat="server">
+        
+        </asp:ContentPlaceHolder>
+    </div>
+    
+    
+    
+    <div id="rightbar" style="color: #000000">
+        Sponsors<br /><br />
+ <%--   
+    <a href="http://www.magiclanesbowl.com/" target="_blank" 
+            title="Magic Lanes">
+    <img src="images/magiclanes.gif" alt="http://www.magiclanesbowl.com/" border="0" /></a> 
+    <p style="color: #000000; font-size:8pt;">Bowling, Sports Bar, Restaurant, Casino.</p><br />
+    <br /><br />
+
+
+    <a href="http://zippysgiantburgers.com/" target="_blank" 
+            title="Zippy's Giant Burgers">
+    <img src="images/zippy.png" alt="http://zippysgiantburgers.com/" border="0" /></a> 
+    <p style="color: #000000; font-size:8pt;">West Seattle Giant Burgers.</p><br />
+    <br /><br />
+
+
+
+    <a href="http://www.hotwirecoffee.com" target="_blank" 
+            title="Hotwire Coffee">
+    <img src="images/hotwirecropped.jpg" alt="http://www.hotwirecoffee.com" border="0" /></a> 
+    <p style="color: #000000; font-size:8pt;">Taste. Real. Coffee.</p><br />
+    <br /><br />
+
+
+
+        <a href="http://passionfruitgames.com/" target="_blank" 
+            title="Tiger Eye - Passionfruit Games">
+    <img src="images/tigereye.png" alt="http://passionfruitgames.com/" border="0" /></a> 
+    <p style="color: #000000; font-size:8pt;">Puzzles for the mind, romance for the heart.</p><br />
+    <br /><br />--%>
+
+           <a href="http://www.chacocanyoncafe.com/" target="_blank" title="Chaco Canyon Cafre">
+        <img src="images/chaco.gif" alt="Chaco Canyon Cafe" border="0" /></a>
+    <p style="color: #000000; font-size:8pt;">Seattle's Greenest Cafe, specializing in Organic, Vegan, Raw, and Gluten-Free cuisine.</p><br />
+    <br /><br />
+    
+       <a href="http://www.pearbox.com/" target="_blank" title="Pearbox.com">
+        <img src="images/pearbox.gif" alt="Pearbox.com" border="0" /></a>
+    <p style="color: #000000; font-size:8pt;">Handmade Jewelry by local artist Anne Anderson.</p><br />
+    <br /><br />
+    
+
+            <a href="http://www.shiftgrabber.com" target="_blank" title="Shift Grabber. Want to trade a work shift?">
+        <img src="images/sgsmall.gif" alt="ShiftGrabber.com" border="0" /></a>
+    <p style="color: #000000; font-size:8pt;">Want to trade a work shift?</p><br />
+
+
+
+    </div>
+    
+        <div id="rightbar2">
+<script type="text/javascript"><!--
+    google_ad_client = "pub-5955447555807696";
+    /* 120x600, created 3/9/10 */
+    google_ad_slot = "4976906421";
+    google_ad_width = 120;
+    google_ad_height = 600;
+//-->
+</script>
+<script type="text/javascript"
+src="http://pagead2.googlesyndication.com/pagead/show_ads.js">
+</script>
+    </div>
+    
+    
+    <div id="footer">
+    <center>
+    <p style="font-size:8pt;">Website Created by <a target="_blank" 
+            href="http://www.lorenanderson.com" style="color: #000000">Loren Anderson</a></p>
+                    <asp:Menu ID="Menu2" runat="server"  
+            Orientation="Horizontal" DataSourceID="SiteMapDataSource1"             
+             Font-Size="8pt" 
+            ForeColor="Black">
+        </asp:Menu>
+        </center>
+    </div>
+    
+    <div id="ads">
+    <center>
+
+    
+    <script type="text/javascript"><!--
+        google_ad_client = "pub-5955447555807696";
+        /* 468x60, created 12/23/09 */
+        google_ad_slot = "7502194926";
+        google_ad_width = 468;
+        google_ad_height = 60;
+//-->
+</script>
+<script type="text/javascript"
+src="http://pagead2.googlesyndication.com/pagead/show_ads.js">
+</script>
+</center>
+    </div>
+    
+    
+    </div>
+    </form>
+</body>
+</html>
